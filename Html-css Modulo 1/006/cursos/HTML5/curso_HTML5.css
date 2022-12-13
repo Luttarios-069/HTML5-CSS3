@@ -1,0 +1,12 @@
+body{
+    background-color:rgb(206, 103, 8);
+    text-align: center;
+}
+iframe{
+    width: 700px;
+    height: 520px;   
+}
+ 
+p{
+    font-size: 30px;
+}

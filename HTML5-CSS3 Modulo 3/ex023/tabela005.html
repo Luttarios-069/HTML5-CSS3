@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        col.cnome {
+            background-color: rgb(105, 255, 160);
+        }
+        
+        col.cgrupo{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de Tabelas</h1>
+    
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="3">
+            
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Tamara</td>
+            <td>F</td>
+            <td>33</td>
+            <td>Atendente de Laboratório</td>
+        </tr>
+        <tr>
+            <td>Kaylane</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Arquiteta</td>
+        </tr>
+        <tr>
+            <td>Luiz Carlos</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Engenheiro de Software</td>
+        </tr>
+        <tr>
+            <td>Antonio Carlos</td>
+            <td>M</td>
+            <td>43</td>
+            <td>Vendedor</td>
+        </tr>
+    </table>
+</body>
+</html>
